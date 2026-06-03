@@ -1,0 +1,13 @@
+{
+  "name": "vena-x-csm-worker",
+  "version": "1.0.0",
+  "description": "CSM data fetcher for Vena-X — runs on Render Cron Job every 2 minutes",
+  "main": "csm-worker.js",
+  "scripts": {
+    "start": "node csm-worker.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "firebase-admin": "^12.0.0"
+  }
+}
